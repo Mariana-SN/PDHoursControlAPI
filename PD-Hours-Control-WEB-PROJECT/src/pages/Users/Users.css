@@ -1,0 +1,105 @@
+.users-page {
+  animation: fadeIn 0.3s ease-in;
+  width: 100%;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.page-header h1 {
+  font-size: 32px;
+  color: var(--black);
+  margin: 0;
+  font-weight: 600;
+}
+
+.users-section {
+  background: var(--white);
+  border: 1px solid var(--gray-2);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.users-section h2 {
+  font-size: 20px;
+  color: var(--black);
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+
+.custom-table th:nth-child(1) { width: 40%; }
+.custom-table th:nth-child(2) { width: 25%; }
+.custom-table th:nth-child(3) { width: 35%; }
+
+.user-name {
+  color: var(--black);
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.hours-value {
+  color: var(--gray-4);
+  font-weight: 400;
+}
+
+.squad-info {
+  display: flex;
+  align-items: center;
+  word-break: break-word;
+}
+
+.squad-name {
+  color: var(--gray-4);
+  font-weight: 400;
+  word-break: break-word;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--white);
+  border: 1px solid var(--gray-2);
+  border-radius: 12px;
+}
+
+.empty-state h3 {
+  font-size: 20px;
+  color: var(--black);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.empty-state p {
+  color: var(--gray-3);
+  margin-bottom: 24px;
+}
+
+.empty-state .btn {
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  .page-header h1 {
+    text-align: center;
+  }
+
+  .custom-table td {
+    white-space: normal;
+    min-width: 150px;
+  }
+
+  .empty-state .btn {
+    width: 100%;
+  }
+}

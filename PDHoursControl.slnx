@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="PDHoursControl.API/PDHoursControl.API.csproj" />
+  <Project Path="PDHoursControl.Application/PDHoursControl.Application.csproj" />
+  <Project Path="PDHoursControl.Domain/PDHoursControl.Domain.csproj" />
+  <Project Path="PDHoursControl.Infrastructure/PDHoursControl.Infrastructure.csproj" />
+  <Project Path="PDHoursControl.Shared/PDHoursControl.Shared.csproj" Id="8c7cf43c-5b20-4421-88fe-c0ff3a8cbe66" />
+</Solution>
