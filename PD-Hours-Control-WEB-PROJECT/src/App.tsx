@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import SquadsPage from './pages/Squads/squadsPage';
-import UsersPage from './pages/Users/usersPage';
-import ReportsPage from './pages/Reports/reportsPage';
-import SquadReportPage from './pages/Reports/squadReportsPage';
+import SquadsPage from '@/pages/Squads/squadsPage';
+import UsersPage from '@/pages/Users/usersPage';
+import ReportsPage from '@/pages/Reports/reportsPage';
+import SquadReportPage from '@/pages/Squads/squadsPage';
 import './App.css';
 
 function App() {
